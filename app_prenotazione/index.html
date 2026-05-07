@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistema di Prenotazione - Hotel Splendid</title>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <h1>Prenotazione Online</h1>
+        <p>Inserisci i tuoi dati per richiedere la prenotazione</p>
+      </header>
+      
+      <main>
+        <form id="booking-form">
+          <div class="form-group">
+            <label for="nome">Nome Cliente:</label>
+            <input type="text" id="nome" required placeholder="Inserisci il tuo nome">
+          </div>
+          
+          <div class="form-group">
+            <label for="persone">Numero di Persone:</label>
+            <input type="number" id="persone" min="1" required value="1">
+          </div>
+
+          <div class="form-group">
+            <label for="data">Data di Arrivo:</label>
+            <input type="date" id="data" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="notti">Numero di Notti:</label>
+            <input type="number" id="notti" min="1" required value="1">
+          </div>
+          
+          <div class="form-group">
+            <label for="camera">Tipo di Camera:</label>
+            <select id="camera" required>
+              <option value="singola">Camera Singola (Max 1)</option>
+              <option value="doppia">Camera Doppia (Max 2)</option>
+              <option value="tripla">Camera Tripla (Max 3)</option>
+              <option value="suite">Suite Familiare (Max 5)</option>
+            </select>
+          </div>
+          
+          <button type="submit" id="btn-conferma">Conferma Prenotazione</button>
+        </form>
+        
+        <div id="result-message" class="hidden"></div>
+        
+        <div class="back-link">
+          <a href="http://localhost:3000/prenotazione.html">Torna al Sito Web</a>
+        </div>
+      </main>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
