@@ -41,7 +41,20 @@ form.addEventListener('submit', (e) => {
     return;
   }
 
-  // 2. Controllo capacità camera
+  // 2. Controllo data di arrivo (deve essere dal giorno dopo in poi)
+  const dataSelezionata = new Date(dataArrivo);
+  dataSelezionata.setHours(0, 0, 0, 0);
+  
+  const domani = new Date();
+  domani.setDate(domani.getDate() + 1);
+  domani.setHours(0, 0, 0, 0);
+
+  if (dataSelezionata < domani) {
+    showMessage("La data di arrivo deve essere a partire da domani.", "error");
+    return;
+  }
+
+  // 3. Controllo capacità camera
   const maxOspiti = cameraCapacity[tipoCamera];
   if (persone > maxOspiti) {
     showMessage("Camera non adatta al numero di ospiti", "error");
