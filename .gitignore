@@ -16,3 +16,6 @@ dist-ssr/
 
 # Vite
 *.timestamp-*
+
+# Permetti la cartella di build per la presentazione
+!sito_hotel/prenotazione_app/

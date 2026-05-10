@@ -17,7 +17,7 @@ graph TD
 2.  **Camere (`camere.html`)**: Elenco dettagliato delle tipologie di camere disponibili (Singola, Doppia, Tripla, Suite) con relative capacità massime.
 3.  **Servizi (`servizi.html`)**: Descrizione dei servizi offerti (SPA, Ristorante, Wi-Fi, Navetta).
 4.  **Contatti (`contatti.html`)**: Informazioni di contatto, indirizzo e modulo di messaggistica semplice.
-5.  **Prenota Ora (`prenotazione.html`)**: Pagina di atterraggio per la prenotazione con link diretto all'applicativo logico.
+5.  **Prenota Ora (`prenotazione.html`)**: Pagina per la prenotazione con link diretto all'applicativo.
 
 ## Navigazione
 La navigazione è garantita da un `header` e un `nav` presenti in ogni pagina, permettendo all'utente di spostarsi liberamente tra le sezioni del sito. La pagina di prenotazione funge da ponte verso l'applicativo TypeScript esterno.

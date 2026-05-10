@@ -8,7 +8,7 @@ Questo progetto contiene la parte statica in HTML del Project Work.
 - `servizi.html`: Servizi hotel
 - `contatti.html`: Info e contatti
 - `prenotazione.html`: Link all'app di prenotazione
-- `style.css`: Fogli di stile
+- `style.css`: Stile del sito
 - `ARCHITETTURA_SITO.md`: Documentazione architetturale
 
 ## Istruzioni
