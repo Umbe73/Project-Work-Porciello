@@ -15,6 +15,9 @@ if %errorlevel% neq 0 (
 
 echo Il sito sara' disponibile all'indirizzo: http://localhost:3000
 echo.
+echo Apertura del browser in corso...
+start http://localhost:3000
+echo.
 echo Per chiudere il server, chiudi questa finestra.
 echo.
 cd sito_hotel
