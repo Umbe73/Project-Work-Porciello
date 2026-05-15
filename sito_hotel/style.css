@@ -190,10 +190,18 @@ main {
     font-size: 1.08rem;
 }
 
+.servizio-card .card-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1.5rem;
+}
+
 .servizio-logo {
-    width: 60px;
-    height: 60px;
-    margin-bottom: 1rem;
+    width: 180px;
+    height: 180px;
+    margin-bottom: 1.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
