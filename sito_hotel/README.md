@@ -1,4 +1,5 @@
-# Sito Web - Hotel Splendid
+# Hotel Splendid - Project Work
+Ultimo aggiornamento: 15 Maggio 2026
 
 Questo progetto contiene la parte statica in HTML del Project Work.
 
